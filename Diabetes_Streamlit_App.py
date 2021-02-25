@@ -10,9 +10,8 @@ import pickle
 
 import streamlit as st
 st.set_page_config(layout="wide")
-st.write("""
-# Welcome to Diabetes Detection Webpage
-""")
+st.title('Welcome to Diabetes Detection Data application')
+st.write('This data application uses Random Forest Alogrithm to do prediction')
 st.write('*******')
 image = Image.open('Capture.JPG')
 
@@ -22,6 +21,7 @@ image = Image.open('Capture.JPG')
 
 
 def get_user_input():
+  st.sidebar.header('Select Input Parameters')
   Pregnancies = st.sidebar.slider('Pregnancies',0,17,3)
   Glucose = st.sidebar.slider('Glucose',0,199,117)
   BloodPressure = st.sidebar.slider('BloodPressure',0,160,72)
@@ -29,7 +29,7 @@ def get_user_input():
   Insulin = st.sidebar.slider('Insulin',0.0,846.0,30.0)
   BMI = st.sidebar.slider('BMI',0.0,67.1,32.0)
   DiabetesPedigreeFunction = st.sidebar.slider('Diab. Pedigree Func',0.078,2.42,0.3725)
-  Age = st.sidebar.slider('Age',20,100,30)
+  Age = st.sidebar.slider('Age',20,100,40)
 
   user_data = {'Pregnancies': Pregnancies,
                'Glucose' : Glucose,
