@@ -9,7 +9,7 @@ Diabetes is a chronic, metabolic disease characterized by elevated levels of blo
 About 422 million people worldwide have diabetes, the majority living in low-and middle-income countries, and 1.6 million deaths are directly attributed to diabetes each year. Both the number of cases and the prevalence of diabetes have been steadily increasing over the past few decades. 
 International Diabetes Federation Key Facts 
 (https://www.idf.org/aboutdiabetes/what-is-diabetes/facts-figures.html ): 
-•	In year 2019 , Approximately 463 million adults (20-79 years) were living with diabetes; by 2045 this will rise to 700 million
+•	In year 2019 , Approximately 463 million adults (20-79 years) were living with diabetes; by 2045 this will rise to 700 million\n
 •	The proportion of people with type 2 diabetes is increasing in most countries
 •	79% of adults with diabetes were living in low- and middle-income countries
 •	1 in 5 of the people who are above 65 years old have diabetes
@@ -30,7 +30,7 @@ This application will be useful for people to proactively identify if they are d
 ## Description
 This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. Dataset includes females at least 21 years old of Pima Indian heritage.  Dataset includes below listed medical predictors (independent variables) and one target variable.
 
-Independent variables (features):
+### Independent variables (features):
 •	Pregnancies: Number of times pregnant
 •	Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
 •	BloodPressure: Diastolic blood pressure (mm Hg)
@@ -40,8 +40,8 @@ Independent variables (features):
 •	DiabetesPedigreeFunction: Diabetes pedigree function
 •	Age: Age (years)
 
-Dependent variables (features):
-Outcome: Class variable (0 or 1)
+### Dependent variables (features):
+### Outcome: Class variable (0 or 1)
 
 # Solution Statement: 
 We will be following steps to build Diabetes detection web application.   This is a supervised machine learning classification problem.  We will perform below steps,
@@ -63,12 +63,12 @@ We will use Logistic regression model with F1 score of 0.775 as our benchmark mo
 
 # Evaluation metrics: 
 Model will be evaluated using below metrics.   Final selected model will be then used in Diabetes detection web application. 
-•	Accuracy:  Overall, how often is the classifier correct? 
-o	Accuracy = (True Positive + True Negative/Total)
-•	Precision:  When model predict yes , how often model is correct ?
-o	Precision =  True Positive / Predicted Yes
-•	Recall or Sensitivity: When it's actually yes, how often does it predict yes?
-o	Recall  =  True positive / Actual yes
-•	F1 score :  Weighted average of the true positive rate (recall) and precision
-o	F1 score =   2* ( (  Precision * Recall) / (Precision + Recall) )
+### Accuracy:  Overall, how often is the classifier correct? 
+    Accuracy = (True Positive + True Negative/Total)
+### Precision:  When model predict yes , how often model is correct ?
+    Precision =  True Positive / Predicted Yes
+### Recall or Sensitivity: When it's actually yes, how often does it predict yes?
+    Recall  =  True positive / Actual yes
+### F1 score :  Weighted average of the true positive rate (recall) and precision
+    F1 score =   2* ( (  Precision * Recall) / (Precision + Recall) )
 
