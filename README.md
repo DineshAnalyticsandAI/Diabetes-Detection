@@ -45,18 +45,18 @@ This dataset is originally from the National Institute of Diabetes and Digestive
 
 # Solution Statement: 
 We will be following steps to build Diabetes detection web application.   This is a supervised machine learning classification problem.  We will perform below steps,
-•	Data Acquisition &  EDA
-o	Data Collection:  Research and identify dataset for training Diabetes detection machine learning model.  We will utilize Kaggle Pima Indian Diabetes dataset.
-o	Perform Exploratory data on data :   Understand data , features and correlations 
-•	Model Training & Selection
-o	Develop, train and validate multiple models and select best model
-•	Evaluate model & Selection
-o	   Evaluate and select best models
-o	   Generate performance metrics such as F1 score, Precision and Recall
-•	Web application
-o	Use Streamlit to build web application
-•	Deploy Web application 
-o	Deploy web application using Heroku (Cloud application platform)
+### Data Acquisition &  EDA
+    Data Collection:  Research and identify dataset for training Diabetes detection machine learning model.  We will utilize Kaggle Pima Indian Diabetes dataset.
+    Perform Exploratory data on data :   Understand data , features and correlations 
+### Model Training & Selection
+    Develop, train and validate multiple models and select best model
+    Evaluate model & Selection
+### Evaluate and select best models
+    Generate performance metrics such as F1 score, Precision and Recall
+### Web application
+    Use Streamlit to build web application
+### Deploy Web application 
+    Deploy web application using Heroku (Cloud application platform)
 
 # Benchmark model:
 We will use Logistic regression model with F1 score of 0.775 as our benchmark model.   This is from researchgate.net publication white paper on Diabetes detection.   https://www.researchgate.net/publication/334153122_Predictive_Analytics_in_Healthcare_for_Diabetes_Prediction 
